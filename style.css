@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f8cbf;
+  font-family: sans-serif;
+}
+
+.list {
+  list-style-type: none;
+  border: 0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f5f7;
+}
+
+.itemlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.remove-button {
+  border: 0px;
+  border-radius: 50%;
+  background-color: brown;
+}
+
+.edit-button {
+  border: 0px;
+  border-radius: 50%;
+  background-color: greenyellow;
+}
